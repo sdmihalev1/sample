@@ -1,0 +1,278 @@
+.wrapper {
+    width: 100%;
+    font-family: "Roboto";
+}
+
+.img-banner {
+    width: 100%;
+    margin: 0;
+}
+
+.top {
+    text-align: center;
+    padding-left: 15% ;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    width: 70%;
+    color: #3F3F3F;
+}
+
+.tops {
+    padding-left: 15% ;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    width: 80%;
+    color: #3F3F3F;
+}
+
+.tops1 {
+    padding-left: 15% ;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    width: 70%;
+    color:#F0FFFF;
+    text-align: center;
+}
+
+.rectangles{
+    border-style: groove;
+}
+
+.rectangles1{
+    border-style: groove;
+    margin-top: 20px;
+}
+
+.rectangles2{
+    border-style: groove;
+    margin-top: 20px;
+}
+
+.one{
+    font-size: 110px;
+    line-height: 60%;
+    margin-bottom: 0;
+    margin-top: 10px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    color: #3F3F3F;
+}
+
+.two {
+    line-height: 60%;
+    margin-bottom: 0;
+    margin-top: 10px;
+    padding-top: 0;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    color: #3F3F3F;
+}
+
+.img-woman {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+
+.img-woman1 {
+    text-align: center;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    color: #3F3F3F;
+}
+
+.description {
+    text-align: center;
+    font-size: 15px;
+    font-family: "Roboto";
+}
+
+.photos-woman{
+    border-style: groove;
+}
+
+.photos-man{
+    border-style: groove;
+    margin-top: 20px;
+}
+
+.email-form {
+    background: rgba(63, 63, 63, 0.6);
+}
+
+.but1{
+    background: #FFD700;
+    color:#F0FFFF;
+    font-size: 15px;
+}
+/* 
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+
+}
+
+.oimages::after {
+    content: "";
+    clear:both;
+    display: table;
+} */
+
+.column1 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        max-width: 100%;
+      
+}
+
+.column2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 100%;
+  
+}
+
+.column3 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        max-width: 100%;
+      
+}
+
+.footerlor {
+    text-align: center;
+    font-family: "Roboto";
+}
+
+footer {
+    display: block;
+  }
+
+.bottom-left {
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
+    left: 10%;
+    background-color: #F16529;
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+@media only screen and (min-width: 768px) {
+    .tops {
+        text-align: center;
+    }
+    .img-woman {
+        float: left;
+        width:10%;
+        height:10%;
+        text-align: center;
+        display: block;
+    }
+    .column1 {
+        width: auto;
+        float:left;
+        padding:5px;
+    }
+    .column2 {
+        width: auto;
+        padding:5px;
+        float:right;
+    }
+    .column3 {
+        width: auto;
+        float: top;
+    }
+    .footerlor{
+        width: auto;
+    }
+    .imagess{
+        text-align:center;
+
+    }
+}
+
+@media (max-width: 489px) {
+    .bottom-left1{
+        display: none !important;
+    }
+
+    
+    
+}
+
+@media only screen and (min-width: 1000px){ 
+    .bottom-left{
+        width: 95%;
+        padding-left:0%;
+        margin-left:0%;
+        left:0%;
+        right:0%;
+        height:20%;
+        bottom:0%;
+        font-size:30px;
+        text-align:center;
+        vertical-align:middle;
+        line-height:90px;
+    }
+
+    .rectangles { 
+        float:left; 
+        width:180px; 
+        height:160px; 
+        background-color:white; 
+        border:solid black; 
+        margin-bottom:5%;
+    } 
+    .rectangles1 { 
+        float:left; 
+        width:180px; 
+        height:160px; 
+        background-color:white;  
+        border:solid black; 
+        margin-left:20px; 
+    } 
+    .rectangles2 { 
+        float:right; 
+        width:180px; 
+        height:160px; 
+        background-color:white; 
+        border:solid black; 
+        margin-left:0px;
+    } 
+
+    .amigo { 
+        width:600px; 
+        height:190px; 
+        padding-left:15px; 
+        padding-right:15px; 
+    } 
+   
+}
